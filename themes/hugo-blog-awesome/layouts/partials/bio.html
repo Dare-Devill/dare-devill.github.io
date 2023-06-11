@@ -3,10 +3,93 @@
 {{ $image := resources.Get $avatar_img }}
 <div class="author">
     {{ with $image }}
-    {{ $image := $image.Fill "100x100 webp" }}
+    {{ $image := $image.Fill "500x500 webp" }}
     <img class="author-avatar" src="{{ $image.RelPermalink }}" alt="{{ $avatar_img_alt }}" width="{{ .Width }}"
         height="{{ .Height }}" />
     {{ end }}
-    <h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
+    <h2 class="author-name"></h2>
     <p class="author-bio">{{ .Site.Params.author.description }}</p>
 </div>
+
+<script>
+// Inside your JavaScript file
+
+// Function to display the name without animation
+function showName(element, name) {
+  element.innerHTML = name;
+}
+
+// Get the element with the class 'author-name'
+const nameElement = document.querySelector('.author-name');
+
+// Define your name
+const name = {{ .Site.Params.author.intro }};
+
+// Check the animate_name value from the config file
+const animateName = {{ .Site.Params.animate_name | default false }};
+
+// Conditionally trigger the animation or display the name directly
+if (animateName) {
+  // Function to animate typing effect
+  function typeWriter(element, text, speed) {
+    let i = 0;
+    const type = setInterval(function () {
+      if (i < text.length) {
+        element.innerHTML += text.charAt(i);
+        i++;
+      } else {
+        clearInterval(type);
+        setTimeout(function () {
+        element.innerHTML = '';
+        typeWriter(element, text, speed);
+      }, 5000); // Repeat the animation after 5 seconds
+    }
+  }, speed);
+}
+
+
+  // Define the typing speed
+  const typingSpeed = 100; // Adjust the speed as needed (in milliseconds)
+
+  // Trigger the typing effect
+  typeWriter(nameElement, name, typingSpeed);
+} else {
+  // Display the name without animation
+  showName(nameElement, name);
+  nameElement.classList.remove('cursor-visible'); // Remove the cursor class
+  nameElement.classList.add('cursor-hidden');
+}
+
+
+</script>
+
+<style>
+/* Inside your CSS file */
+
+/* Hide the cursor at the end of the animation */
+.author-name:after {
+  content: '|';
+  animation: blinkCursor 0.7s infinite;
+}
+
+/* Define the cursor blinking animation */
+@keyframes blinkCursor {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Hide the cursor when animation is disabled */
+.author-name.cursor-visible:after,
+.author-name.cursor-hidden:after {
+  display: none;
+}
+
+
+</style>

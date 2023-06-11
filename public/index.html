@@ -127,13 +127,95 @@ stroke-linejoin="round" class="feather feather-home">
 <div class="author">
     
     
-    <img class="author-avatar" src="/img/avtar_hu47eeff004429b01f91de7bee64d7591c_525824_100x100_fill_q75_h2_box_smart1.webp" alt="Pratham Mishra" width="1344"
+    <img class="author-avatar" src="/img/avtar_hu47eeff004429b01f91de7bee64d7591c_525824_500x500_fill_q75_h2_box_smart1.webp" alt="Pratham Mishra" width="1344"
         height="1744" />
     
-    <h2 class="author-name">Pratham Mishra</h2>
+    <h2 class="author-name"></h2>
     <p class="author-bio">Code never lies, But comments do. 😌</p>
 </div>
 
+<script>
+
+
+
+function showName(element, name) {
+  element.innerHTML = name;
+}
+
+
+const nameElement = document.querySelector('.author-name');
+
+
+const name = "Pratham Mishra";
+
+
+const animateName =  true ;
+
+
+if (animateName) {
+  
+  function typeWriter(element, text, speed) {
+    let i = 0;
+    const type = setInterval(function () {
+      if (i < text.length) {
+        element.innerHTML += text.charAt(i);
+        i++;
+      } else {
+        clearInterval(type);
+        setTimeout(function () {
+        element.innerHTML = '';
+        typeWriter(element, text, speed);
+      }, 5000); 
+    }
+  }, speed);
+}
+
+
+  
+  const typingSpeed = 100; 
+
+  
+  typeWriter(nameElement, name, typingSpeed);
+} else {
+  
+  showName(nameElement, name);
+  nameElement.classList.remove('cursor-visible'); 
+  nameElement.classList.add('cursor-hidden');
+}
+
+
+</script>
+
+<style>
+ 
+
+ 
+.author-name:after {
+  content: '|';
+  animation: blinkCursor 0.7s infinite;
+}
+
+ 
+@keyframes blinkCursor {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+ 
+.author-name.cursor-visible:after,
+.author-name.cursor-hidden:after {
+  display: none;
+}
+
+
+</style>
         <main aria-label="Content">
             <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
             

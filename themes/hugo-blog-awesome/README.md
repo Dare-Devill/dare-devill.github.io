@@ -20,7 +20,7 @@ Google PageSpeed Insights [test link](https://pagespeed.web.dev/report?url=https
 
 </details>
 
-## Why this theme?
+## Why this theme ?
 
 Hugo Blog Awesome is a theme crafted to capture your readers' attention.
 

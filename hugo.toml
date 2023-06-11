@@ -47,7 +47,7 @@ url = "index.xml"
   defaultColor = "dark"
   goToTop = true
   toc = false
-
+  animate_name = true
   show_tag = true
 
 [params.author]

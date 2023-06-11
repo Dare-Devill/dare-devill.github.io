@@ -12,8 +12,7 @@
                     <p>Author: <a href="https://telegram.me/{{ .Params.tele_username }}">{{ .Params.author }}</a></p>
                     {{ else if eq .Params.tele_username "" }}
                     <p>Author: {{ .Params.author }}</p>
-
-                     {{ end }}
+                    {{ end }}
                      
                 </div>
             </header>
@@ -31,3 +30,6 @@
     </main>
 </div>
 {{ end }}
+
+
+
