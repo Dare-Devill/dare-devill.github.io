@@ -7,11 +7,14 @@
                 {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" .Date }}
                 <div class="post-meta">
                     <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ .Date | time.Format ":date_medium" }} </time>
-                    {{ if .Params.tele_username }}
+                    
+                    {{ if and (ne .Params.tele_username "") (ne .Params.author "") }}
                     <p>Author: <a href="https://telegram.me/{{ .Params.tele_username }}">{{ .Params.author }}</a></p>
-                    {{ else }}
+                    {{ else if eq .Params.tele_username "" }}
                     <p>Author: {{ .Params.author }}</p>
+
                      {{ end }}
+                     
                 </div>
             </header>
             {{- if or .Params.toc .Site.Params.toc }}

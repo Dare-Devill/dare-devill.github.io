@@ -2,8 +2,8 @@
 title: "How To Unlock Bootloader Oneplus 8"
 date: 2023-06-07T12:05:45+05:30
 tags: ["tech",android"]
-author: "Pratham Mishra"
-tele_username: "Pratham_vai"
+author: ""
+tele_username: "king"
 draft: false
 toc : true
 ---
