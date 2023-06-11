@@ -52,7 +52,7 @@ url = "index.xml"
   show_tag = true
 
 [params.author]
-    avatar = "img/avtar.jpg"
+    avatar = "img/1.jpg"
     intro = "Pratham Mishra"
     name = "Pratham Mishra"
     description = "Code never lies, But comments do. 😌"
