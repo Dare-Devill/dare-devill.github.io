@@ -2,7 +2,7 @@ baseURL = 'https://blog.pratham-mishra.in/'
 languageCode = 'en-us'
 title = 'Pratham Blogs'
 theme = "hugo-blog-awesome"
-DisqusShortname = disqus_phmBk1Klzjy
+DisqusShortname = 'disqus_phmBk1Klzjy'
 
 enableEmoji = true
 
