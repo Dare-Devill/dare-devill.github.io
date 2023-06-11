@@ -42,7 +42,7 @@ if (animateName) {
         setTimeout(function () {
         element.innerHTML = '';
         typeWriter(element, text, speed);
-      }, 5000); // Repeat the animation after 5 seconds
+      }, {{ .Site.Params.animate_repeat_time }}); // Repeat the animation after 5 seconds
     }
   }, speed);
 }

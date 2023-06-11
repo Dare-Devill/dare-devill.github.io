@@ -48,6 +48,7 @@ url = "index.xml"
   goToTop = true
   toc = false
   animate_name = true
+  animate_repeat_time = 10000 # value should be in miliseconds
   show_tag = true
 
 [params.author]
