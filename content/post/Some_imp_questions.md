@@ -1101,6 +1101,8 @@ A distributed database refers to a database system in which data is stored acros
 
 In summary, distributed databases offer advantages such as improved performance, scalability, fault tolerance, and high availability. However, they also come with challenges related to complexity, data consistency, network dependency, cost, and security. Organizations must carefully consider their requirements and evaluate the trade-offs before opting for a distributed database architecture.
 
+***
+
 ### THANK YOU 🙋🏻
 
 Thank you for taking the time to read my blog, where I have posted all the questions and solutions for our upcoming DBMS exam. It took me 3 hours to complete this blog 😫, and I hope it has provided you with valuable insights into the world of database management systems. If you have any further questions or need clarification on any topic, feel free to reach out 📞. Good luck with your exam!🤞
