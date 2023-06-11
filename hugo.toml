@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Pratham Blogs'
 theme = "hugo-blog-awesome"
 disqusShortname = 'blog-pratham-mishra-in'
+googleAnalytics = 'G-NJWQ0XXE3Y'
 
 enableEmoji = true
 
