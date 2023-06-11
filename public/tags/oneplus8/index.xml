@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oneplus8 on Pratham Blogs</title>
+    <link>https://blog.pratham-mishra.in/tags/oneplus8/</link>
+    <description>Recent content in oneplus8 on Pratham Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jun 2023 23:50:35 +0530</lastBuildDate><atom:link href="https://blog.pratham-mishra.in/tags/oneplus8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Install Custom Rom In Oneplus 8</title>
+      <link>https://blog.pratham-mishra.in/post/custom-rom-on-oneplus8/</link>
+      <pubDate>Thu, 08 Jun 2023 23:50:35 +0530</pubDate>
+      
+      <guid>https://blog.pratham-mishra.in/post/custom-rom-on-oneplus8/</guid>
+      <description>How To Install Custom Rom In Oneplus 8 What You Need Fastboot &amp;amp; ADB Drivers Unlocked Bootloader Custom Rom and Custom Recovery Installing a custom ROM on your OnePlus 8 involves several steps. Please note that the process may void your warranty and has the potential to damage your device if not done correctly. Make sure to back up your data before proceeding. Here&amp;rsquo;s a general guide to installing a custom ROM on your OnePlus 8:</description>
+    </item>
+    
+  </channel>
+</rss>

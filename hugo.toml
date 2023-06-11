@@ -1,0 +1,66 @@
+baseURL = 'https://blog.pratham-mishra.in/'
+languageCode = 'en-us'
+title = 'Pratham Blogs'
+theme = "hugo-blog-awesome"
+DisqusShortname = true
+enableEmoji = true
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Dare-Devill"
+
+[[params.socialIcons]]
+name = "Telegram"
+url = "https://telegram.me/Pratham_vai"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "index.xml"
+
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]] 
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/post/'
+    weight = 20
+  [[menu.main]]
+    pageRef="bio"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+[params]
+  sitename = "Pratham Mishra"
+  defaultColor = "dark"
+  goToTop = true
+  toc = false
+
+  show_tag = true
+
+[params.author]
+    avatar = "img/avtar.jpg"
+    intro = "Pratham Mishra"
+    name = "Pratham Mishra"
+    description = "Code never lies, But comments do. 😌"
+
+
+[taxonomies]
+  tag = "tags"
+
+
+[tableOfContents]
+startLevel = 1 # ToC starts from H2
+endLevel = 4 # ToC ends at H4
+ordered = false # generates <ul> instead of <ol>

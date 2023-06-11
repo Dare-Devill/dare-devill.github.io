@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Pratham Blogs</title>
+    <link>https://blog.pratham-mishra.in/tags/</link>
+    <description>Recent content in Tags on Pratham Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jun 2023 00:50:32 +0530</lastBuildDate><atom:link href="https://blog.pratham-mishra.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>college stuff</title>
+      <link>https://blog.pratham-mishra.in/tags/college-stuff/</link>
+      <pubDate>Sat, 10 Jun 2023 00:50:32 +0530</pubDate>
+      
+      <guid>https://blog.pratham-mishra.in/tags/college-stuff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://blog.pratham-mishra.in/tags/android/</link>
+      <pubDate>Thu, 08 Jun 2023 23:50:35 +0530</pubDate>
+      
+      <guid>https://blog.pratham-mishra.in/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://blog.pratham-mishra.in/tags/tech/</link>
+      <pubDate>Thu, 08 Jun 2023 23:50:35 +0530</pubDate>
+      
+      <guid>https://blog.pratham-mishra.in/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

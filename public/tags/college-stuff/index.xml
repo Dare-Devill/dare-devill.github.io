@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>college stuff on Pratham Blogs</title>
+    <link>https://blog.pratham-mishra.in/tags/college-stuff/</link>
+    <description>Recent content in college stuff on Pratham Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jun 2023 00:50:32 +0530</lastBuildDate><atom:link href="https://blog.pratham-mishra.in/tags/college-stuff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some Important Question And Its Solution for DBMS Exam</title>
+      <link>https://blog.pratham-mishra.in/post/some_imp_questions/</link>
+      <pubDate>Sat, 10 Jun 2023 00:50:32 +0530</pubDate>
+      
+      <guid>https://blog.pratham-mishra.in/post/some_imp_questions/</guid>
+      <description>Some Important Question And Its Solution for DBMS Exam My Source 📖 For Questions I`m using THIS
+Q1. What is Data Base Management System? Explain with its Applications. DBMS stands for Database Management System. It is a software system that enables users to create, store, organize, and manage vast amounts of data efficiently and effectively. DBMS provides an interface for interacting with databases and handles tasks such as data storage, retrieval, modification, and deletion.</description>
+    </item>
+    
+  </channel>
+</rss>
