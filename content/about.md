@@ -6,7 +6,7 @@ author: ""
 toc: false
 ---
 
-![](/img/avtar.jpg)
+![](/img/about.jpg)
 
 # Hi, I'm Pratham Mishra! 👋
 
