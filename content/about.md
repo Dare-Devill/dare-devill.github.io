@@ -2,7 +2,7 @@
 title: "About"
 date: 2023-06-09T13:54:05+05:30
 draft: false
-show_author: false
+author: ""
 toc: false
 ---
 
