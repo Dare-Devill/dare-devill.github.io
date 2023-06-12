@@ -12,7 +12,7 @@ draft: false
 # COMPUTER GRAPHICS AND ANIMATION TECHNOLOGY Questions And It`s solutions For Exam
 
 ### My Source 📖
-For Questions I`m using [THIS](https://drive.google.com/file/d/1MbZDMCUgQBD1h4_2w9dvWrM2eNtqDI2B/view?usp=drivesdk) 
+For Questions I`m using [THIS](https://drive.google.com/drive/folders/1ND4Uj7oqefGkh0vGyM5pf7pViOkPR0pn) 
 
 
 ## Q1. Explain the need of computer graphics in detail.
